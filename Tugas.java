@@ -61,3 +61,24 @@ import java.util.Scanner ;
 
 
         }
+ }
+    private static Integer kereta(){
+        Scanner scan = new Scanner(System.in);
+        System.out.println("---------------------------------");
+        System.out.println("Masukkan Budget anda (Dalam juta), ");
+        System.out.println("---------------------------------");
+        int Budget = scan.nextInt();
+        System.out.println("Budget anda" + Budget + "juta");
+
+        if (Budget<=15){
+            System.out.println("Budget anda cocok dengan Yamaha Jupiter");
+        }
+        else if (Budget > 15 && Budget <= 25){
+            System.out.println("Budget anda cocok dengan Yamaha Freego");
+        }
+        else if (Budget > 25){
+            System.out.println("Budget anda cocok dengan Yamaha Nmax");
+        }
+return 0;
+    }
+}
