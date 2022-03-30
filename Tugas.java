@@ -37,11 +37,7 @@ import java.util.Scanner ;
                     else if (Budget > 25){
                         System.out.println("Budget anda cocok dengan Suzuki GSX");
                         System.exit(0);
-
-
                     }
-
-
                 case 2 :
                     System.out.println(kereta());
                     System.exit(0);
@@ -56,9 +52,6 @@ import java.util.Scanner ;
 
 
             }
-
-
-
 
         }
  }
